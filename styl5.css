@@ -1,0 +1,84 @@
+/* Reset stylów */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styl strony */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #CCFF99 ;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Nagłówek */
+header {
+    background-color: #99CC99 ;
+    color: #326647;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.tagline {
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+/* Główna sekcja */
+main {
+    margin-top: 20px;
+}
+
+/* Sekcje */
+section {
+    background-color: #CCFFCC ;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Nagłówki sekcji */
+h2 {
+    color:  #326647;
+    margin-bottom: 10px;
+}
+
+/* Lista */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Stopka */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #777;
+}
+
+/* Efekty zmiany kursora */
+.uro{
+    cursor: alias;
+}
+
+.o {
+    cursor: wait;
+}
+
+.his{
+    cursor: url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/August_Poniatowski.jpg/313px-August_Poniatowski.jpg'), progress;
+
+
+}
+footer {
+    cursor: no-drop;
+}
+
+header{
+    cursor: ew-resize;
+}
